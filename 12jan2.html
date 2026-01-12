@@ -1,0 +1,42 @@
+<html>
+    <head></head>
+    <style>
+        #outer{
+            height:200px;
+            width:400px;
+            border:2px solid black;
+            /* display:flex; */
+        }
+        #inner-left{
+            height:200px;
+            width:200px;
+            background-color: red;
+            float:left;
+        }
+        #inner-right{
+            height:200px;
+            width:200px;
+            background-color: green;
+            float:left;
+        }
+        #a{
+            height:100px;
+            width: 200px;
+            background-color: aliceblue;
+        }
+        #b{
+            height:100px;
+            width: 200px;
+            background-color: purple;
+        }
+    </style>
+    <body>
+        <div id="outer">
+            <div id="inner-left"></div>
+            <div id="inner-right">
+                <div id="a"></div>
+                <div id="b"></div>
+            </div>
+        </div>
+    </body>
+</html>

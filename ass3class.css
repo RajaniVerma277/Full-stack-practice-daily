@@ -1,0 +1,10 @@
+#a, #c{
+    color:red;
+    background-color:purple;
+    border:2px solid red;
+}
+#b, #d{
+    color:pink;
+    background-color:purple;
+    border:2px solid green;
+}

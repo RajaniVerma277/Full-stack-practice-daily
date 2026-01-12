@@ -1,0 +1,14 @@
+h1{
+    background-color: purple;
+    color:red;
+    border:2px solid red;
+    text-align: center;
+    text-transform: capitalize;
+    border-radius: 30px;
+}
+img{
+    height:200px;
+    width: 200px;
+    border:2px dotted red;
+    border-radius: 50%;
+}
