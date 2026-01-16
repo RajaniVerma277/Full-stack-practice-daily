@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #outer{
+            height:500px;
+            width:500px;
+        }
+        #a1{
+            height:500px;
+            width:100px;
+            background-color: aqua;
+            float:left;
+        }
+        #a2{
+            height:500px;
+            width:400px;
+            background-color: blue;
+            float:left;
+        }
+        #b1{
+            height:400px;
+            width:100px;
+            background-color: red;
+            float:left;
+        }
+        #b2{
+            height:400px;
+            width:300px;
+            background-color: green;
+            float:left;
+        }
+        #c1{
+            height:300px;
+            width:100px;
+            background-color: purple;
+            float:left;
+        }
+        #c2{
+            height:300px;
+            width:200px;
+            background-color:yellow;
+            float:left;
+        }
+        #a{
+            height:150px;
+            width:200px;
+        }
+        #b{
+            height:150px;
+            width:200px;
+        }
+        #A{
+            height:150px;
+            width:100px;
+            background-color: brown;
+            float:left;
+        }
+        #B{
+            height:150px;
+            width:100px;
+            background-color: rgb(107, 51, 51);
+            float:left;
+        }
+    </style>
+</head>
+<body>
+    <div id="outer">
+        <div id="a1"></div>
+        <div id="a2">
+            <div id="b1"></div>
+            <div id="b2">
+                <div id="c1"></div>
+                <div id="c2">
+                    <div id="a">
+                        <div id="A"></div>
+                        <div id="B"></div>
+                    </div>
+                    <div id="b">
+                        <div id="B"></div>
+                        <div id="A"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

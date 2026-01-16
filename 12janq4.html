@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #outer{
+            height:400px;
+            width:800px;
+        }
+        #f{
+            height:400px;
+            width:100px;
+            float:left;
+        }
+        #f1{
+            height:200px;
+            width:100px;
+            background-color: red;
+        }
+        #f2{
+            height:200px;
+            width:100px;
+            background-color: green;
+        }
+        #s{
+            height:400px;
+            width:600px;
+            float:left
+        }
+        #t{
+            height:400px;
+            width:100px;
+            float:left;
+        }
+        #s1{
+            height:100px;
+            width:600px;
+        }
+        #s11{
+            height:100px;
+            width:400px;
+            background-color: yellow;
+            float:left;
+        }
+        #s12{
+            height:100px;
+            width:200px;
+            background-color: yellowgreen;
+            float:left;
+        }
+        #s2{
+            height:200px;
+            width:600px;
+        }
+        #s3{
+            height:100px;
+            width:600px;
+        }
+        #s22,#s23,#s24{
+            height:200px;
+            width:200px;
+            background-color: aqua;
+            float:left;
+        }
+        #a{
+            height:100px;
+            width:200px;
+            background-color: pink;
+        }
+        #b{
+            height:100px;
+            width:200px;
+            background-color: purple;
+        }
+        #a1{
+            width:50px;
+            height:100px;
+            background-color: purple;
+            float:left;
+        }
+
+        #a2{
+            width:150px;
+            height:100px;
+            background-color: rgb(118, 63, 118);
+            float:left;
+        }
+        #a11{
+            height:50px;
+            width:150px;
+            background-color: red;
+            
+        }
+        #a12{
+            height:50px;
+            width:150px;
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+    <div id="outer">
+        <div id="f">
+            <div id="f1"></div>
+            <div id="f2"></div>
+        </div>
+        <div id="s">
+            <div id="s1">
+                <div id="s11"></div>
+                <div id="s12"></div>
+            </div>
+            <div id="s2">
+                <div id="s22"></div>
+                <div id="s23">
+                    <div id="a">
+                        <div id="a1"></div>
+                        <div id="a2">
+                            <div id="a11"></div>
+                            <div id="a12"></div>
+                        </div>
+                    </div>
+                    <div id="b">
+                        <div id="a2">
+                            <div id="a11"></div>
+                            <div id="a12"></div>
+                        </div>
+                        <div id="a1"></div>
+                    </div>
+                </div>
+                <div id="s24"></div>
+            </div>
+            <div id="s3">
+                <div id="s12"></div>
+                <div id="s11"></div>
+            </div>
+        </div>
+        <div id="t">
+            <div id="f1"></div>
+            <div id="f2"></div>
+        </div>
+    </div>
+</body>
+</html>
