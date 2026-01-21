@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: #568ca1;
+        }
+        #form{
+            height:400px;
+            width:350px;
+            background-color: rgba(3, 49, 67, 0.2);
+            margin:20px auto;
+            border-radius: 10px;
+            padding:25px 25px;
+            box-sizing: border-box;
+            backdrop-filter: blur(50px);
+        }
+        #form h1{
+            text-align: center;
+        }
+        .first_name{
+            height:25px;
+            width:140px;
+            border-radius: 5px;
+            border-style: none;
+        }
+        .last_name{
+            height:25px;
+            width:140px;
+            border-radius: 5px;
+            border-style: none;
+        }
+        .email{
+            height:25px;
+            width:290px;
+            border-radius: 5px;
+            border-style: none;
+        }
+        .password{
+            height:25px;
+            width:290px;
+            border-radius: 5px;
+            border-style: none;
+        }
+        #form p{
+            text-align: center;
+            color:white;
+        }
+        .button{
+            height:25px;
+            width:290px;
+            border-radius: 5px;
+            border-style: none;
+        }
+        #icon{
+            height:30px;
+            width:300px;
+            /* background-color: aqua; */
+            padding:0px 90px;
+            box-sizing: border-box;
+
+
+        }
+        .circle{
+            height:20px;
+            width:20px;
+            float:left;
+            background-color: white;
+            border-radius: 50%;
+            margin:5px 5px;
+
+        }
+
+    </style>
+</head>
+
+<body>
+    <div id="form">
+        <h1>Register Form</h1>
+        <input type="text" placeholder="First Name" class="first_name">
+        <input type="text" placeholder="Last Name" class="last_name"><br><br>
+        <input type="email" placeholder="Email" class="email"><br><br>
+        <input type="password" placeholder="password" class="password">
+        <p><input type="checkbox">subscribe to our newsletter</p>
+        <input type="button" class="button" value="SIGN UP">
+        <p>or sign up with</p>
+        <div id="icon">
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+        </div>
+    </div>
+</body>
+</html>
