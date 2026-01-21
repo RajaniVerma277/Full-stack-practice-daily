@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #outer{
+            height:400px;
+            width:400px;
+            text-align: center;
+            line-height: 400px;
+            font-size: 80px;
+            margin:100px auto;
+            border:3px solid purple;
+            color:black;
+            border-radius: 10px;
+            background-color: plum;
+            animation-name: abc ;
+            animation-duration: 5s;
+            animation-iteration-count: 10;
+            animation-direction:alternate;
+        }
+        @keyframes abc{
+            from{
+                background:plum;
+                color:black;
+
+
+            }
+            to{
+                background:purple;
+                color:white;
+                transform: rotate(260deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="outer">techpile</div>
+</body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #gallery{
+            height:400px;
+            width:400px;
+            background-color: #2d2d57;
+            margin:0px auto;
+        }
+        .row{
+            height:200px;
+            width:400px;
+        }
+        .col{
+            height:200px;
+            width:100px;
+            /* background-color: aqua; */
+            float:left;
+            padding:5px 5px;
+            box-sizing: border-box;
+
+
+        }
+        .col img{
+            height:180px;
+            width:90px;
+            border: 1px solid #252529;
+            transition: all 2s ease-in-out ;
+
+        }
+        .col img:hover{
+            height:200px;
+            width:100px;
+            transition: all 2s ease-in-out ;
+        }
+    </style>
+</head>
+<body>
+    <div id="gallery">
+        <div class="row">
+            <div class="col"><img src="IMAGES/alovera gel.jpg"></div>
+            <div class="col"><img src="IMAGES/alovera gel.jpg"></div>
+            <div class="col"><img src="IMAGES/alovera gel.jpg"></div>
+            <div class="col"><img src="IMAGES/alovera gel.jpg"></div>
+        </div>
+        <div class="row">
+            <div class="col"><img src="IMAGES/alovera gel.jpg"></div>
+            <div class="col"><img src="IMAGES/alovera gel.jpg"></div>
+            <div class="col"><img src="IMAGES/alovera gel.jpg"></div>
+            <div class="col"><img src="IMAGES/alovera gel.jpg"></div>
+        </div>
+    </div>
+</body>
+</html>

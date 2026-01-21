@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #outer{
+            height:400px;
+            width:400px;
+            animation-name: xyz;
+            animation-duration: 5s;
+            text-align: center;
+            margin: 100px auto;
+            font-size: 20px;
+            animation-iteration-count: infinite;
+            animation-play-state: paused;
+        }
+
+        @keyframes xyz {
+            0%{
+                background: url(IMAGES/alovera\ gel.jpg);
+                background-size: cover;
+                color:black;
+            }
+            20%{
+                background: url(IMAGES/boat\ music\ player.jpg);
+                background-size: cover;
+                color:blue;
+
+            }
+            60%{
+                background: url(IMAGES/cart.jpg);
+                background-size: cover;
+                color:green;
+            }
+            80%{
+                background: url(IMAGES/kid\ toy.jpg);
+                background-size: cover;
+                color:red;
+            }
+            100%{
+                background: url(IMAGES/rajani2.jpg);
+                background-size: cover;
+                color:yellow;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="outer">Techpile</div>
+</body>
+</html>

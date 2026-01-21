@@ -1,0 +1,418 @@
+<html>
+
+<head>
+    <style>
+        .text-color1 {
+            color: #FF6F00;
+        }
+
+        .bg-color1 {
+            background-color: #FF8F00;
+        }
+
+        .text-color2 {
+            color: #17a43b;
+        }
+
+        .bg-color2 {
+            background-color: #17a43b;
+        }
+
+        #outer {
+            min-height: 1000px;
+            width: 1200px;
+            border: 1px solid black;
+            margin: 0px auto;
+        }
+
+        #header {
+            height: 80px;
+            width: 1200px;
+            background: #f3f3f3;
+            padding: 0px 100px;
+            box-sizing: border-box;
+        }
+
+        .a {
+            height: 80px;
+            width: 325px;
+            float: left;
+            font-size: 32px;
+            text-align: center;
+            line-height: 80px;
+        }
+
+        .b {
+            height: 80px;
+            width: 225px;
+            float: left;
+            padding-top: 19px;
+            box-sizing: border-box;
+        }
+
+        #menu {
+            height: 45px;
+            width: 1200px;
+            border: 1px solid transparent;
+            padding: 0px 200px;
+            box-sizing: border-box;
+        }
+
+        #menu ul {
+            list-style-type: none;
+        }
+
+        #menu ul li {
+            height: 40px;
+            width: 100px;
+            color: white;
+            font-weight: bold;
+            float: left;
+            text-align: center;
+            line-height: 40px;
+            transform: translateY(-13px);
+        }
+
+        #menu ul li:hover {
+            background-color: orange;
+            transition: all 1s;
+        }
+
+        #survices {
+            height: 250px;
+            width: 1200px;
+            padding: 0px 100px;
+            box-sizing: border-box;
+        }
+
+        .s {
+            height: 230px;
+            width: 230px;
+            float: left;
+            background-color: white;
+            box-shadow: 0px 0px 20px grey;
+            margin: 10px;
+            border-radius: 5px;
+            transform: translateY(-70px);
+            padding: 20px;
+            box-sizing: border-box;
+            text-align: justify;
+        }
+
+        #aboutus {
+            min-height: 500px;
+            width: 1200px;
+            background-color: grey;
+            font-size: 20px;
+            padding:30px 100px;
+            box-sizing: border-box;
+            text-align: justify;
+
+        }
+        #gallery{
+            min-height:500px;
+            width:1200px;
+            background-color: #f1662a;
+            padding:30px 100px;
+            box-sizing: border-box;
+
+        }
+        .row{
+            height:200px;
+            width:1000px;
+        }
+        .col{
+            height:180px;
+            width:230px;
+            float:left;
+            background-color: white;
+            margin:10px;
+            border-radius: 5px;
+            padding:10px;
+            box-sizing: border-box;
+
+        }
+        .col img{
+            height:100%;
+            width:100%;
+            transform: all 1s;
+        }
+        .col:hover{
+            transform: scale(1.1);
+            transform: all 1s;
+            filter:grayscale(50%);
+        }
+        #contactus{
+            min-height:500px;
+            width:1200px;
+            margin:30px 100px;
+            /* background-color: #17a43b; */
+            
+
+        }
+        .form1{
+            height:500px;
+            width:500px;
+            background-color: aqua;
+            float:left;
+            padding: 20px;
+            box-sizing: border-box;
+
+
+        }
+        .name{
+            height:50px;
+            width:400px;
+            border-radius: 5px;
+            border-style: none;
+        }
+        .email{
+            height:50px;
+            width:400px;
+            border-radius: 5px;
+            border-style: none;
+        }
+        .mobile{
+            height:50px;
+            width:400px;
+            border-radius: 5px;
+            border-style: none;
+        }
+        .message{
+            height:50px;
+            width:400px;
+            border-radius: 5px;
+            border-style: none;
+        }
+        .button{
+            height:50px;
+            width:200px;
+            border-radius: 5px;
+            border-style: none;
+        }
+        .form2{
+            height:500px;
+            width:500px;
+            background-color: aqua;
+            float:left;
+            
+
+        }
+        .detail{
+            height:380px;
+            width:300px;
+            /* background-color: #f1662a; */
+            margin-left:100px;
+            margin-top: 20px;
+            font-size: 30px;
+            color:blue;
+
+
+            
+
+        }
+        #ufooter{
+            height:400px;
+            width:1200px;
+            border-bottom: 2px solid #f1662a;
+            padding:0px 100px;
+            box-sizing: border-box;
+
+            
+        
+        }
+        #underfooter{
+            height:400px;
+            width:1000px;
+            background-color: rgba(0,0,0,0.9);
+            
+    }
+        
+        .foot{
+            height:400px;
+            width:250px;
+            /* background-color: #f3f3f3; */
+            float:left;
+            padding:20px;
+            box-sizing: border-box;
+            text-align: center;
+            color:white;
+        }
+        #bfooter{
+            height:50px;
+            width:1200px;
+            background-color: rgba(0,0,0,0.9);
+            text-align: center;
+            color:white;
+            line-height: 50px;
+            
+        }
+        .x{
+            height:100px;
+            width:500px;
+            float: left;
+
+        }
+        .y{
+            height:50px;
+            width:500px;
+            float: left;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="outer">
+        <div id="header">
+            <div class="a">
+                Code<b class="text-color1">Helper-24X7</b>
+            </div>
+            <div class="b">
+                <b>Contact-Us</b><br />
+                +91-8303855074
+            </div>
+            <div class="b">
+                <b>Mail-Us</b><br />
+                Rahulsoni@techpile.in
+            </div>
+            <div class="b">
+                <b>Address</b><br />
+                vikas Nagar ring road Lucknow
+            </div>
+        </div>
+        <!-- Start Menu -->
+        <div id="menu" class="bg-color2">
+            <ul>
+                <a href="#">
+                    <li>Home</li>
+                </a>
+                <a href="#">
+                    <li>About us</li>
+                </a>
+                <a href="#">
+                    <li>Register</li>
+                </a>
+                <a href="#">
+                    <li>Courses</li>
+                </a>
+                <a href="#">
+                    <li>Gallery</li>
+                </a>
+                <a href="#">
+                    <li>Contact</li>
+                </a>
+                <a href="#">
+                    <li>Login</li>
+                </a>
+            </ul>
+        </div>
+        <!-- End Manu -->
+        <!-- slider -->
+
+        <div id="survices">
+            <div class="s"><b>services 1</b><br />
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio possimus dignissimos dolores quibusdam
+                eius illum voluptas accusamus tenetur incidunt corrupti, saepe enim quae ea totam, amet facere, ipsum
+                eum deleniti.</div>
+            <div class="s">
+                <b>services 1</b><br />
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio possimus dignissimos dolores quibusdam
+                eius illum voluptas accusamus tenetur incidunt corrupti, saepe enim quae ea totam, amet facere, ipsum
+                eum deleniti.
+            </div>
+            <div class="s">
+                <b>services 1</b><br />
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio possimus dignissimos dolores quibusdam
+                eius illum voluptas accusamus tenetur incidunt corrupti, saepe enim quae ea totam, amet facere, ipsum
+                eum deleniti.
+            </div>
+            <div class="s">
+                <b>services 1</b><br />
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio possimus dignissimos dolores quibusdam
+                eius illum voluptas accusamus tenetur incidunt corrupti, saepe enim quae ea totam, amet facere, ipsum
+                eum deleniti.
+            </div>
+        </div>
+        <div id="aboutus">
+            <div style="text-align:center;font-size: 30px;">About <b class="text-color1">Us</b><br>
+
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem perspiciatis reprehenderit
+                impedit quam odit vero unde, quibusdam culpa neque veritatis deserunt natus, magnam beatae fugit totam
+                consectetur similique cum perferendis.
+            </div>
+        </div>
+        <div id="gallery">
+            <div style="text-align:center;font-size: 30px;">Image <b class="text-color2">Gallery</b><br>
+                <div class="row">
+                    <div class="col"><img src="IMAGES/alovera gel.jpg"></div>
+                    <div class="col"><img src="IMAGES/alovera gel.jpg"></div>
+                    <div class="col"><img src="IMAGES/alovera gel.jpg"></div>
+                    <div class="col"><img src="IMAGES/alovera gel.jpg"></div>
+                </div>
+                <div class="row">
+                    <div class="col"><img src="IMAGES/alovera gel.jpg"></div>
+                    <div class="col"><img src="IMAGES/alovera gel.jpg"></div>
+                    <div class="col"><img src="IMAGES/alovera gel.jpg"></div>
+                    <div class="col"><img src="IMAGES/alovera gel.jpg"></div>
+                </div>
+        </div>
+        </div>
+        <div id="contactus">
+            <div class="form1">
+                <input type="text" placeholder="Name" class="name"><br><br>
+                <input type="text" placeholder="Email" class="email"><br><br>
+                <input type="Mobile" placeholder="Mobile" class="mobile"><br><br>
+                <textarea rows="10" cols="30" class="message">Message</textarea><br><br>
+                <input type="button" value="Save" class="button">
+            </div>
+            <div class="form2">
+                <div class="detail">
+                    Mobile No<br>
+                    8303855074<br>
+                    Email Id<br>
+                    rajaniverma507@gmail.com<br>
+                    Address<br>
+                    Vikas Nagar Ring Road<br>
+                </div>
+            </div>
+        </div>
+        <div id="ufooter">
+            <div id="underfooter">
+                <div class="foot">
+                    <b>Company</b><br><br>
+                    Company name<br><br>
+                    Company name<br><br>
+                    Company name<br><br>
+                    Company name<br><br>
+                </div>
+                <div class="foot">
+                    <b>Company</b><br><br>
+                    Company name<br><br>
+                    Company name<br><br>
+                    Company name<br><br>
+                    Company name<br><br>
+                </div>
+                <div class="foot">
+                    <b>Company</b><br><br>
+                    Company name<br><br>
+                    Company name<br><br>
+                    Company name<br><br>
+                    Company name<br><br>
+                </div>
+                <div class="foot">
+                    <b>Company</b><br><br>
+                    Company name<br><br>
+                    Company name<br><br>
+                    Company name<br><br>
+                    Company name<br><br>
+                </div>
+            </div>
+        </div>
+        <div id="bfooter">
+            <div class="x">Rajani Verma</div>
+            <div class="y">copyright to &copy;</div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            height:100px;
+            width:100px;
+            text-align: center;
+            line-height: 50px;
+            font-weight: bold;
+            color:white;
+            animation-name: xyz;
+            animation-duration: 10s;
+
+        }
+        #a{
+            background: purple;
+            animation-timing-function: ease;
+        }
+        #b{
+            background: green;
+            animation-timing-function:ease-in;
+        }
+        #c{
+            background: red;
+            animation-timing-function:ease-out;
+        }
+        #d{
+            background: yellow;
+            animation-timing-function:ease-in-out;
+        }
+        #e{
+            background: brown;
+            animation-timing-function:linear;
+            
+        }
+        #f{
+            background: rgb(48, 48, 185);
+            animation-timing-function:steps(5);
+        }
+
+        @keyframes xyz{
+            from{
+                width:100px;
+            }
+            to{
+                width:1200px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="a">ease</div>
+    <div id="b">ease-in</div>
+    <div id="c">ease-out</div>
+    <div id="d">ease-in-out</div>
+    <div id="e">linear</div>
+    <div id="f">steps</div>
+</body>
+</html>
